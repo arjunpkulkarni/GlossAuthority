@@ -1,0 +1,14 @@
+.veteran-owned-badge {
+  font-size: 0.8em;
+  /* margin-bottom: 10px; */ /* This margin might be specific to Navbar layout, can be added in Navbar.css if needed */
+  display: flex;
+  align-items: center;
+  color: white; /* Ensuring text color if not inherited */
+  font-family: Arial, sans-serif; /* Ensuring font if not inherited */
+}
+
+.flag-icon {
+  width: 20px;
+  height: auto;
+  margin: 0 5px;
+} 

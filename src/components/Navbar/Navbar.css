@@ -36,19 +36,6 @@
   align-items: center;
 }
 
-.veteran-owned {
-  font-size: 0.8em;
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center;
-}
-
-.flag-icon {
-  width: 20px;
-  height: auto;
-  margin: 0 5px;
-}
-
 .navbar-links {
   list-style: none;
   padding: 0;
