@@ -1,0 +1,46 @@
+.hero-section {
+  /* background-image: url('/hero-bg-placeholder.jpg'); */ /* Replace with actual image */
+  background-color: #222; /* Dark gray background */
+  background-size: cover;
+  background-position: center;
+  height: 80vh; /* Adjust as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+
+.hero-content h1 {
+  font-size: 4em; /* Adjust as needed */
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+.hero-content p {
+  font-size: 1.2em; /* Adjust as needed */
+  margin-bottom: 1.5em;
+}
+
+.hero-get-started {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  /* .get-started-btn styles will apply, add specifics here if needed */
+}
+
+.hero-scroll-icon {
+  position: absolute;
+  bottom: 20px;
+  font-size: 2em;
+  /* Basic styling, replace with a proper icon and style */
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 

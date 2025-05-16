@@ -1,0 +1,30 @@
+.image-gallery-section {
+  display: flex;
+  justify-content: space-between; /* Or space-around, or use gap */
+  padding: 20px 0; /* Adjust as needed */
+  background-color: #111; /* Dark background as per image */
+}
+
+.gallery-image-container {
+  flex: 1; /* Each image container takes equal width */
+  margin: 0 5px; /* Small gap between images, adjust as needed */
+  overflow: hidden; /* If images have different aspect ratios and you want to crop */
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove extra space below image */
+}
+
+/* If specific heights are needed and you want to cover */
+/*
+.gallery-image-container {
+  height: 250px; // Example height
+}
+.gallery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+*/ 

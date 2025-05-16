@@ -1,0 +1,85 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #000;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.navbar-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+}
+
+.navbar-logo img {
+  height: 40px; /* Adjust as needed */
+  margin-bottom: 5px;
+}
+
+.navbar-logo span {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.navbar-logo .logo-subtitle {
+  font-size: 0.7em;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+.navbar-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.veteran-owned {
+  font-size: 0.8em;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.flag-icon {
+  width: 20px;
+  height: auto;
+  margin: 0 5px;
+}
+
+.navbar-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  margin: 0 15px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+.get-started-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.navbar-get-started {
+  /* Specific styles for navbar button if different from global .get-started-btn */
+} 

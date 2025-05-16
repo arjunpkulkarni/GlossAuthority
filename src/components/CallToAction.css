@@ -1,0 +1,24 @@
+.cta-section {
+  /* background-image: url('/cta-bg-placeholder.jpg'); */ /* Replace with actual image */
+  background-color: #1c1c1c; /* Slightly different dark background */
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  text-align: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.cta-content h2 {
+  font-size: 3em; /* Adjust as needed */
+  margin-bottom: 1em;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.cta-get-started {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  background-color: #007bff; /* As per image */
+  /* .get-started-btn global styles will apply, add specifics here if needed */
+} 
