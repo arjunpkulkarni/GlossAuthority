@@ -10,7 +10,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 900px; /* Adjust as needed */
+  max-width: 1000px; /* Adjust as needed */
   margin: 0 auto 30px auto;
 }
 
@@ -26,11 +26,13 @@
 
 .packages-container {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  justify-content: center; /* Changed from flex-start to center */
+  flex-wrap: nowrap; /* Changed from wrap to prevent wrapping */
   gap: 20px;
-  max-width: 1000px; /* Adjust as needed */
+  max-width: 100%; /* Allow it to take full width */
   margin: 0 auto;
+  overflow-x: auto; /* Add scroll if content overflows */
+  padding-bottom: 20px; /* Add some padding for the scrollbar */
 }
 
 .package-card {
@@ -39,6 +41,7 @@
   border-radius: 8px;
   padding: 20px;
   width: 280px; /* Adjust as needed */
+  min-width: 280px; /* Ensure cards don't get too small */
   text-align: left;
   box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }

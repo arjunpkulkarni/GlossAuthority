@@ -56,7 +56,6 @@ const Packages = () => {
     <section className="packages-section">
       <div className="packages-header">
         <h2>Choose a package</h2>
-        <span>Updated May 11th &#x2713;</span>
       </div>
       <div className="packages-container">
         {packageData.map((pkg, index) => (

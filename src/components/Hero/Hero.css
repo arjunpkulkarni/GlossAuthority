@@ -3,15 +3,21 @@
   background-color: #222; /* Dark gray background */
   background-size: cover;
   background-position: center;
-  height: 80vh; /* Adjust as needed */
+  background-repeat: no-repeat;
+  height: 100vh; /* Adjust as needed */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  align-items: flex-start; /* Changed from center to flex-start */
+  text-align: left; /* Changed from center to left */
   color: white;
   position: relative;
   font-family: Arial, sans-serif;
+  background-image: url('../Hero/image.png');
+}
+
+.hero-content {
+  padding-left: 5%; /* Added padding to the left */
 }
 
 .hero-content h1 {
@@ -34,13 +40,34 @@
 .hero-scroll-icon {
   position: absolute;
   bottom: 20px;
-  font-size: 2em;
-  /* Basic styling, replace with a proper icon and style */
-  border: 1px solid white;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  left: 50%; /* Align scroll icon with content */
+  transform: translateX(0); /* Adjust if necessary, remove previous centering if any */
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.hero-scroll-icon img {
+  width: 44px; /* Adjust size as needed */
+  height: 44px; /* Adjust size as needed */
+}
+
+/* Remove or comment out the .hero-image class if it exists, as it's no longer needed */
+/*
+.hero-image {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+*/
+
+.get-started-btn.hero-get-started {
+  margin-top: 20px; /* Add some space above the button */
 } 

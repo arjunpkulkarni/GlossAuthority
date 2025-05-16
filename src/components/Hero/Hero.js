@@ -1,5 +1,7 @@
 import React from 'react';
 import './Hero.css';
+import image from "../Hero/image.png"
+import icon from "../Hero/icon.png"
 
 const Hero = () => {
   return (
@@ -10,8 +12,7 @@ const Hero = () => {
         <button className="get-started-btn hero-get-started">Get Started</button>
       </div>
       <div className="hero-scroll-icon">
-        {/* Replace with an actual icon later */}
-        <span>&#x2193;</span> 
+        <img src={icon} alt="Scroll Icon" />
       </div>
     </section>
   );

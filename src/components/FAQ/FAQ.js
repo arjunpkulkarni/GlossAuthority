@@ -31,7 +31,6 @@ const FAQ = () => {
     <section className="faq-section">
       <div className="faq-header">
         <h2>Common Questions</h2>
-        <span>Updated May 11th &#x2713;</span>
       </div>
       <div className="faq-list">
         {faqData.map((item, index) => (
