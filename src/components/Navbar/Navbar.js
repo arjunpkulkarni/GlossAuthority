@@ -1,11 +1,12 @@
 import React from 'react';
 import './Navbar.css';
+import logo from '../Navbar/logo.png';
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src="/logo-placeholder.png" alt="Gloss Authority Logo" />
+        <img src={logo} alt="Gloss Authority Logo" />
         <span>GLOSS AUTHORITY</span>
         <span className="logo-subtitle">AUTO DETAILING</span>
       </div>
