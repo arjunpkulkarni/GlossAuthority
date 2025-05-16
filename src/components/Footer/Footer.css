@@ -75,10 +75,10 @@
   gap: 15px;
 }
 
-.logos a img {
-  width: 24px; /* Adjust icon size as needed */
-  height: 24px;
-}
+/* .logos a img { */
+/*   width: 24px; */ /* Adjust icon size as needed */
+/*   height: 24px; */
+/* } */
 
 /* For react-icons example, if used */
 /*

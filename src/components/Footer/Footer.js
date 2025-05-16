@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
-import logo from "../Footer/logo.png"
+import logo from "../Footer/logo.png";
+import { Instagram, Youtube as TikTok } from 'lucide-react'; // Assuming TikTok might use Youtube or a generic icon if not directly available, or user can specify. For now, using Youtube as a placeholder for TikTok.
 
 const Footer = () => {
   return (
@@ -8,8 +9,9 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-logo-contact">
           <div className="footer-logo">
-            <img src={logo} alt="Gloss Authority Logo" />
-
+            <a href="https://glossauthority.com" target="_blank" rel="noopener noreferrer">
+              <img src={logo} alt="Gloss Authority Logo" />
+            </a>
           </div>
           <div className="footer-contact">
             <p>Gloss Authority</p>
@@ -20,15 +22,8 @@ const Footer = () => {
         <div className="footer-socials">
           <p>Socials</p>
           <div className="logos">
-            {/* Replace with actual icons or images */}
-            <a href="https://www.instagram.com/glossauthority" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><img src="/instagram-icon.png" alt="Instagram" /></a>
-            <a href="https://www.snapchat.com/add/glossauthority" target="_blank" rel="noopener noreferrer" aria-label="Snapchat"><img src="/snapchat-icon.png" alt="Snapchat" /></a>
-            <a href="https://www.tiktok.com/@glossauthority" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><img src="/tiktok-icon.png" alt="TikTok" /></a>
-            {/* Example with react-icons:
-            <a href="#instagram" aria-label="Instagram"><FaInstagram /></a>
-            <a href="#snapchat" aria-label="Snapchat"><FaSnapchatGhost /></a>
-            <a href="#tiktok" aria-label="TikTok"><FaTiktok /></a> 
-            */}
+            <a href="https://www.instagram.com/glossauthority" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><Instagram color="white" size={24} /></a>
+            <a href="https://www.tiktok.com/@glossauthority" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><TikTok color="white" size={24} /></a> {/* Placeholder, confirm actual TikTok icon if available */}
           </div>
         </div>
       </div>
