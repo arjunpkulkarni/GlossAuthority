@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between; /* Or space-around, or use gap */
   padding: 20px 0; /* Adjust as needed */
-  background-color: #111; /* Dark background as per image */
+  background-color: transparent; /* Dark background as per image */
 }
 
 .gallery-image-container {

@@ -19,7 +19,7 @@ function App() {
       <ImageGallery />
       <Packages />
       <FAQ />
-      <Booking />
+      
       <CallToAction />
       <Footer />
     </div>
