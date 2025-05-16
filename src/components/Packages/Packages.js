@@ -10,7 +10,6 @@ const PackageCard = ({ title, subtitle, features, color }) => (
         <li key={index}>{feature}</li>
       ))}
     </ul>
-    <button className="select-btn">Select</button>
   </div>
 );
 

@@ -28,7 +28,7 @@
 }
 
 .footer-logo img {
-  height: 40px; /* Match navbar logo */
+  height: 60px; /* Match navbar logo */
   margin-bottom: 5px;
 }
 
@@ -70,23 +70,23 @@
   font-size: 1em;
 }
 
-.social-icons {
+.logos {
   display: flex;
   gap: 15px;
 }
 
-.social-icons a img {
+.logos a img {
   width: 24px; /* Adjust icon size as needed */
   height: 24px;
 }
 
 /* For react-icons example, if used */
 /*
-.social-icons a svg {
+.logos a svg {
   font-size: 24px;
   color: white;
 }
-.social-icons a:hover svg {
+.logos a:hover svg {
   color: #007bff;
 }
 */
