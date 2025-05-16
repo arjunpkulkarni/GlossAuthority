@@ -3,6 +3,7 @@
   /* margin-bottom: 10px; */ /* This margin might be specific to Navbar layout, can be added in Navbar.css if needed */
   display: flex;
   align-items: center;
+  justify-content: center;
   color: white; /* Ensuring text color if not inherited */
   font-family: Arial, sans-serif; /* Ensuring font if not inherited */
 }

@@ -9,10 +9,11 @@ import FAQ from './components/FAQ/FAQ';
 import Booking from './components/Booking/Booking';
 import CallToAction from './components/CallToAction/CallToAction';
 import Footer from './components/Footer/Footer';
-
+import VeteranOwnedBadge from './components/VeteranOwnedBadge/VeteranOwnedBadge';
 function App() {
   return (
     <div className="App">
+      <VeteranOwnedBadge />
       <Navbar />
       <Hero />
       <ImageGallery />
