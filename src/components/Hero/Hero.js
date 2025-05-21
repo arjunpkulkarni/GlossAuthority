@@ -8,7 +8,7 @@ const Hero = () => {
     <section className="hero-section">
       <div className="hero-content">
         <h1>Gloss Authority</h1>
-        <p>Premier Auto Detailing for New York, New Jersey & Connecticut</p>
+        <p>Mobile Auto Detailing for New York, New Jersey & Connecticut</p>
         <button className="get-started-btn hero-get-started">Get Started</button>
       </div>
       <div className="hero-scroll-icon">

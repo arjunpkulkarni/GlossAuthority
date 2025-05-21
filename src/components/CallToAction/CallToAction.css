@@ -23,4 +23,26 @@
   background-color: #007bff; /* As per image */
   text-decoration: none;
   /* .get-started-btn global styles will apply, add specifics here if needed */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .cta-section {
+    padding: 60px 20px; /* Adjusted padding for smaller screens */
+  }
+
+  .cta-content h2 {
+    font-size: 3.5em; /* Smaller font size for mobile */
+  }
+
+  .cta-get-started {
+    padding: 12px 24px; /* Adjusted padding for buttons */
+    font-size: 1em; /* Smaller font size for buttons */
+  }
+}
+
+@media (max-width: 480px) {
+  .cta-content h2 {
+    font-size: 2.5em; /* Even smaller font size for very small screens */
+  }
 } 

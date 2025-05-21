@@ -34,6 +34,7 @@
 .hero-get-started {
   padding: 15px 30px;
   font-size: 1.2em;
+  margin-top: 20px; /* Add some space above the button */
   /* .get-started-btn styles will apply, add specifics here if needed */
 }
 
@@ -69,5 +70,44 @@
 */
 
 .get-started-btn.hero-get-started {
-  margin-top: 20px; /* Add some space above the button */
+  /* .get-started-btn styles will apply, add specifics here if needed */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2.5rem; /* Reduce font size for smaller screens */
+  }
+
+  .hero-content p {
+    font-size: 1rem; /* Adjust paragraph font size */
+  }
+
+  .hero-get-started {
+    padding: 10px 20px; /* Adjust button padding */
+    font-size: 0.9rem; /* Adjust button font size */
+  }
+
+  .hero-scroll-icon {
+    bottom: 10px; /* Adjust scroll icon position */
+  }
+
+  .hero-scroll-icon img {
+    width: 30px; /* Smaller scroll icon */
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 2rem; /* Further reduce font size for very small screens */
+  }
+
+  .hero-content p {
+    font-size: 0.9rem; /* Further adjust paragraph font size */
+  }
+
+  .hero-get-started {
+    padding: 8px 15px; /* Further adjust button padding */
+    font-size: 0.8rem; /* Further adjust button font size */
+  }
 } 
