@@ -5,9 +5,9 @@ const CallToAction = () => {
   return (
     <section className="cta-section">
       <div className="cta-content">
-        <h2>Book an<br/>Appointment today!</h2>
+        <h2>Book an<br/>Appointment Today!</h2>
         <a
-          href="https://calendly.com/arjunpkulkarni/30min"
+          href="https://calendly.com/glossauthority/detailing-appointment"
           target="_blank"
           rel="noopener noreferrer"
           className="get-started-btn cta-get-started"
