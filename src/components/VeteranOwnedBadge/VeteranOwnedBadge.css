@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   color: white; /* Ensuring text color if not inherited */
-  font-family: Arial, sans-serif; /* Ensuring font if not inherited */
+  font-family: 'Radio Canada', sans-serif;
 }
 
 .flag-icon {

@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Radio Canada';
+  src: url('../public/fonts/radio/RadioCanada_SemiCondensed-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   font-family: 'Radio Canada', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

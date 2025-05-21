@@ -12,7 +12,7 @@
   text-align: left; /* Changed from center to left */
   color: white;
   position: relative;
-  font-family: Arial, sans-serif;
+  font-family: 'Radio Canada', sans-serif;
   background-image: url('../Hero/image.png');
 }
 

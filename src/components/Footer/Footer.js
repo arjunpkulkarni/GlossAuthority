@@ -1,7 +1,8 @@
 import React from 'react';
 import './Footer.css';
 import logo from "../Footer/logo.png";
-import { Instagram, Youtube as TikTok } from 'lucide-react'; // Assuming TikTok might use Youtube or a generic icon if not directly available, or user can specify. For now, using Youtube as a placeholder for TikTok.
+import { Instagram } from 'lucide-react';
+import { FaTiktok, FaSnapchatGhost } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -23,7 +24,8 @@ const Footer = () => {
           <p>Socials</p>
           <div className="logos">
             <a href="https://www.instagram.com/glossauthority" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><Instagram color="white" size={24} /></a>
-            <a href="https://www.tiktok.com/@glossauthority" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><TikTok color="white" size={24} /></a> {/* Placeholder, confirm actual TikTok icon if available */}
+            <a href="https://www.tiktok.com/@glossauthority" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><FaTiktok color="white" size={24} /></a>
+            <a href="https://www.snapchat.com/add/glossauthority" target="_blank" rel="noopener noreferrer" aria-label="Snapchat"><FaSnapchatGhost color="white" size={24} /></a> {/* Assuming this is the Snapchat username; please verify */}
           </div>
         </div>
       </div>
