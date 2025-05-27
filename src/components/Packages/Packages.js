@@ -51,6 +51,15 @@ const Packages = () => {
     },
   ];
 
+  const servicePriceData = {
+    category: 'Sedan Services',
+    services: [
+      { name: 'Full Detail', price: '$200' },
+      { name: 'Interior only', price: '$150' },
+      { name: 'Exterior only', price: '$65' },
+    ],
+  };
+
   return (
     <section className="packages-section">
       <div className="packages-header">
@@ -60,6 +69,23 @@ const Packages = () => {
         {packageData.map((pkg, index) => (
           <PackageCard key={index} {...pkg} />
         ))}
+      </div>
+
+      <div className="service-prices-header">
+        <h2>Individual Service Prices</h2>
+      </div>
+      <div className="service-prices-container">
+        <div className="service-price-category">
+          <h3>{servicePriceData.category}</h3>
+          <ul>
+            {servicePriceData.services.map((service, index) => (
+              <li key={index} className="service-price-item">
+                <span>{service.name}:</span>
+                <span>{service.price}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </section>
   );

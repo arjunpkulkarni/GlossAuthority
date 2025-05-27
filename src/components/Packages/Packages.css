@@ -150,4 +150,80 @@
     padding: 10px 0;
     font-size: 1em;
   }
+}
+
+/* Styles for Service Prices */
+.service-prices-header {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.service-prices-header h2 {
+  font-size: 1.8em;
+  color: #fff; /* Or your desired header color */
+}
+
+.service-prices-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.service-price-category {
+  background-color: #1a1a1a;
+  border: 1px solid #444; /* Darker border for theme */
+  border-radius: 8px;
+  padding: 20px;
+  width: 80%;
+  max-width: 400px; /* Adjust as needed */
+  text-align: left;
+}
+
+.service-price-category h3 {
+  font-size: 1.5em;
+  color: #FFD700; /* Gold color or another highlight */
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.service-price-category ul {
+  list-style: none;
+  padding: 0;
+}
+
+.service-price-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #333; /* Darker separator */
+  font-size: 0.95em;
+}
+
+.service-price-item:last-child {
+  border-bottom: none;
+}
+
+.service-price-item span {
+  color: #eee; /* Lighter text for contrast */
+}
+
+.service-price-item span:last-child {
+  font-weight: bold;
+  color: #fff; /* White or slightly brighter for price */
+}
+
+@media (max-width: 480px) {
+  .service-prices-header h2 {
+    font-size: 1.6em;
+  }
+  .service-price-category {
+    width: 90%;
+  }
+  .service-price-category h3 {
+    font-size: 1.3em;
+  }
+  .service-price-item {
+    font-size: 0.9em;
+  }
 } 
