@@ -34,8 +34,13 @@
 .hero-get-started {
   padding: 15px 30px;
   font-size: 1.2em;
-  margin-top: 20px; /* Add some space above the button */
   /* .get-started-btn styles will apply, add specifics here if needed */
+  display: inline-block; /* Make the div only take up the width of its content */
+}
+
+.hero-get-started a {
+  text-decoration: none; /* Remove underline */
+  color: white; /* Make text white */
 }
 
 .hero-scroll-icon {

@@ -24,22 +24,22 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src={logo} alt="Gloss Authority Logo" />        
+        <img src={logo} alt="Gloss Authority Logo" />
       </div>
       <div className="hamburger-icon" onClick={toggleMobileMenu}>
         <div></div>
         <div></div>
         <div></div>
       </div>
-      <div className={`navbar-center ${isMobileMenuOpen ? 'open' : ''}`}>        
+      <div className={`navbar-center ${isMobileMenuOpen ? 'open' : ''}`}>
         <ul className="navbar-links">
           <li><a href="#home" onClick={handleSmoothScroll}>Home</a></li>
-          <li><a href="#about" onClick={handleSmoothScroll}>About</a></li>
+          <li><a href="#about" onClick={handleSmoothScroll}>Packages</a></li>
           <li><a href="#schedule" onClick={handleSmoothScroll}>Schedule</a></li>
           <li><a href="#pricing" onClick={handleSmoothScroll}>Pricing</a></li>
         </ul>
       </div>
-      <a href="#pricing" className={`get-started-btn navbar-get-started ${isMobileMenuOpen ? 'open' : ''}`} onClick={handleSmoothScroll}>Get started</a>
+      <a href="https://calendly.com/glossauthority/detailing-appointment" className={`get-started-btn navbar-get-started ${isMobileMenuOpen ? 'open' : ''}`} target="_blank" rel="noopener noreferrer">Get started</a>
     </nav>
   );
 };

@@ -24,7 +24,6 @@ const FAQ = () => {
     { question: 'Can you remove all scratches from my paint?', answer: 'While we can remove or significantly reduce many scratches, deep scratches that have gone through the clear coat may not be fully removable.' },
     { question: 'What\'s the difference between waxing and ceramic coating?', answer: 'Wax offers short-term protection (weeks to months), while ceramic coating offers long-term protection (years) and a harder, more durable layer.' }, // Escaped apostrophe
     { question: 'Do you offer mobile detailing services?', answer: 'This information would be specific to the business - please update or we can make it a general affirmative statement.' },
-    { question: 'How do I maintain my car after a detail?', answer: 'Use pH-neutral car wash soaps, microfiber towels for drying, and avoid automatic car washes with harsh brushes.' },
   ];
 
   return (

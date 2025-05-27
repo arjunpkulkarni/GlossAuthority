@@ -6,7 +6,6 @@ import Hero from './components/Hero/Hero';
 import ImageGallery from './components/ImageGallery/ImageGallery';
 import Packages from './components/Packages/Packages';
 import FAQ from './components/FAQ/FAQ';
-import Booking from './components/Booking/Booking';
 import CallToAction from './components/CallToAction/CallToAction';
 import Footer from './components/Footer/Footer';
 import VeteranOwnedBadge from './components/VeteranOwnedBadge/VeteranOwnedBadge';
@@ -15,12 +14,19 @@ function App() {
     <div className="App">
       <VeteranOwnedBadge />
       <Navbar />
-      <Hero />
-      <ImageGallery />
-      <Packages />
+      <div id="home">
+        <Hero />
+      </div>
+      <div id="about">
+        <ImageGallery />
+      </div>
+      <div id="pricing">
+        <Packages />
+      </div>
       <FAQ />
-      
-      <CallToAction />
+      <div id="schedule">
+        <CallToAction />
+      </div>
       <Footer />
     </div>
   );
