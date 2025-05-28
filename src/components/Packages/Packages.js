@@ -51,14 +51,40 @@ const Packages = () => {
     },
   ];
 
-  const servicePriceData = {
-    category: 'Sedan Services',
-    services: [
-      { name: 'Full Detail', price: '$200' },
-      { name: 'Interior only', price: '$150' },
-      { name: 'Exterior only', price: '$65' },
-    ],
-  };
+  const servicePriceData = [
+    {
+      category: 'Sedan Services',
+      services: [
+        { name: 'Full Detail', price: '$200' },
+        { name: 'Interior only', price: '$150' },
+        { name: 'Exterior only', price: '$65' },
+      ],
+    },
+    {
+      category: 'SUV Services',
+      services: [
+        { name: 'Full Detail', price: '$250' },
+        { name: 'Interior only', price: '$200' },
+        { name: 'Exterior only', price: '$75' },
+      ],
+    },
+    {
+      category: 'Coupe Services',
+      services: [
+        { name: 'Full Detail', price: '$185' },
+        { name: 'Interior only', price: '$140' },
+        { name: 'Exterior only', price: '$60' },
+      ],
+    },
+    {
+      category: 'Truck Services',
+      services: [
+        { name: 'Full Detail', price: '$280' },
+        { name: 'Interior only', price: '$220' },
+        { name: 'Exterior only', price: '$75' },
+      ],
+    },
+  ];
 
   return (
     <section className="packages-section">
@@ -75,17 +101,19 @@ const Packages = () => {
         <h2>Individual Service Prices</h2>
       </div>
       <div className="service-prices-container">
-        <div className="service-price-category">
-          <h3>{servicePriceData.category}</h3>
-          <ul>
-            {servicePriceData.services.map((service, index) => (
-              <li key={index} className="service-price-item">
-                <span>{service.name}:</span>
-                <span>{service.price}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
+        {servicePriceData.map((categoryItem, catIndex) => (
+          <div key={catIndex} className="service-price-category">
+            <h3>{categoryItem.category}</h3>
+            <ul>
+              {categoryItem.services.map((service, index) => (
+                <li key={index} className="service-price-item">
+                  <span>{service.name}:</span>
+                  <span>{service.price}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </div>
     </section>
   );
